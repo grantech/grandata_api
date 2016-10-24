@@ -24,4 +24,4 @@ app.register_blueprint(store_blueprint, url_prefix="/stores")
 app.register_blueprint(alert_blueprint, url_prefix="/alerts")
 
 if __name__ == "__main__":
-	app.run(host="0.0.0.0")
+	app.run(host="0.0.0.0", debug=True)
